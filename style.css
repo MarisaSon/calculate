@@ -1,0 +1,70 @@
+body {
+  background-color: #FFF8EA;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+}
+
+h1{
+    color:#594545 ;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+input{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    
+   
+}
+#add {
+    width: 30%;
+    margin-top: 12px;
+    background-color:#C8DBBE;
+    color: black;
+    padding: 5px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+#calculate{
+    width: 30%;
+    background-color: #C8DBBE;
+    color: black;
+    padding: 5px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.name{
+    margin-right: 5px;
+    width: 12%;
+}
+
+.sum {
+    margin-left: 5px;
+    width: 10%;
+}
+
+.delete{
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#result {
+margin-left: 100px;
+font-size: 20px;
+font-family: 'Roboto', sans-serif;
+}

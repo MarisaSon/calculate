@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Calculate</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+   
+    <h1>Кто кому сколько должен?</h1>
+  
+    <form>
+      <div id="persons">
+        <div>
+          <input class="name" type="text" placeholder="Имя"/><input class="sum" type="number" placeholder="Сумма" /><button class="delete">Убрать человека</button>
+        </div>
+
+        <div>
+          <input class="name" type="text" placeholder="Имя" /><input  class="sum" type="number" placeholder="Сумма" /><button class="delete">Убрать человека</button>
+        </div>
+      </div>
+      <button id="add">ДОБАВИТЬ ЧЕЛОВЕКА</button>
+      <br />
+      <button id="calculate">СЧИТАТЬ</button>
+    </form>
+
+    <br />
+
+    <div id="result">
+    
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
